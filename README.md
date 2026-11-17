@@ -5,6 +5,10 @@
 **This project was not built. If you came here looking for a way to paste images from your local clipboard
 into a CLI agent running over SSH, use [cc-clip](https://github.com/ShunmeiCho/cc-clip).**
 
+**Setting it up?** [docs/setup-guide.md](docs/setup-guide.md) is a step by step install and review guide:
+prerequisites, what gets installed where, verification, operational notes for running several servers at
+once, a security review, and troubleshooting. Written for whoever runs the machines.
+
 What follows is why, plus the research that came out of evaluating the problem. It is kept because some of it
 is hard to find elsewhere.
 
