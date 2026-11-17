@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/logo.png" alt="clipfwd" width="600"></p>
+
 # clipfwd
 
 Paste images from your local clipboard into CLI tools running over SSH.
