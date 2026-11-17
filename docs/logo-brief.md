@@ -1,64 +1,41 @@
-# Logo brief: clipfwd
+# clipfwd: art guide for the logo
 
-## What it is
+## The story in one line
 
-clipfwd is an open-source command-line tool (AGPL-3.0). It lets you paste a screenshot from your
-laptop into a program running on a remote server over SSH. Today, Ctrl+V with an image does nothing on
-a remote machine, because the clipboard sits on the laptop. clipfwd carries the image through the
-existing SSH connection, so the remote program sees an ordinary clipboard.
+A picture slips from your hands to a faraway machine, quietly, as if it was always there.
 
-The main audience is developers who run AI coding agents (Claude Code, Codex, opencode) on a server
-instead of on their laptop.
+clipfwd carries a screenshot from your laptop to a terminal on another computer. Nothing more. The
+logo should feel like that moment: a light, effortless handover.
 
-## Name
+## What we want
 
-Always lowercase: `clipfwd`, short for "clipboard forward". It's read as "clip forward".
+**One idea, one shape.** A single mark that you can draw from memory in three strokes, not a row of
+icons explaining the product. If it needs a caption, it is not there yet.
 
-## The idea to get across
+**Motion, not machinery.** Think of a sheet of paper caught mid-flight, a clip that has just let go,
+a corner folding forward, a small picture leaning into a gentle curve. Lean into the gesture of
+passing something on.
 
-An image travelling from your machine to a distant terminal. Something gets handed across a gap:
-clipboard, then a channel, then a terminal prompt. It should feel small, sturdy and trustworthy. It's a
-utility, not an app.
+**Calm and crafted.** Soft, confident curves, generous space around the mark, a bit of wit. It may
+hint at a terminal (a `>`, a blinking cursor) but should never look like one.
 
-## Possible directions
+**Warm, not corporate.** It belongs to a small tool made by people who care about details. One
+colour with character, used sparingly, on deep or light grounds. Let negative space do half the work.
 
-Pick one or two to explore:
+## What we do not want
 
-1. A paper clip, or a clipboard clip, that bends into a forward arrow or a `>` prompt.
-2. A small image tile (a photo frame with a mountain or sun) sliding through a tunnel or pipe into a
-   terminal cursor `_`.
-3. A lettermark built from `cf` or `c>`, where the `>` doubles as the shell prompt and the forward arrow.
+- Clip art: a photo frame with mountains, a literal prompt, a padlock, a cloud.
+- Pieces placed next to each other instead of flowing into one form.
+- Thick outlines and app-icon boxes that make the mark heavy.
+- Anything resembling another brand.
 
-## Must work
+## Test it like this
 
-- At 16x16 and 32x32 pixels (favicon, GitHub avatar) without losing its shape.
-- In a single colour, on both dark and light backgrounds. Many terminals and the GitHub dark theme are
-  dark.
-- As a square symbol on its own, and as a horizontal lockup with the wordmark `clipfwd`.
+- Shrink it to the size of a fingernail. Is it still recognisable?
+- Make it one flat colour. Does it still feel alive?
+- Show it to someone for two seconds. Can they sketch it afterwards?
 
-## Style
+## Practical
 
-- Flat, geometric, few strokes. A monospaced or simple geometric typeface for the wordmark, which fits a
-  terminal tool.
-- One accent colour plus neutral greys. No gradients, no 3D, no glossy app-icon look.
-
-## Avoid
-
-- Logos or recognisable elements of other brands: Apple, Anthropic or Claude, OpenAI, GitHub, OpenSSH's
-  pufferfish, Tux.
-- A literal padlock or shield. Security matters, but it isn't the product.
-- Fine detail that disappears at small sizes.
-
-## Deliverables
-
-- Symbol and horizontal lockup as SVG, plus PNG at 16, 32, 64, 128, 256 and 512 px.
-- Light, dark and single-colour variants.
-- A GitHub social preview image of 1280x640 px with the lockup and the line "Paste screenshots into
-  remote CLI tools over SSH".
-- The colour values (hex) and the typeface name, with its licence.
-
-## Rights
-
-The project is open source, so the logo must be free to use in the repo, the documentation, packages
-(Homebrew, .deb) and talks. Please hand over the rights to the project, or license it under CC BY 4.0,
-and use only fonts with an open licence such as SIL OFL.
+Please deliver it as vector, with the name `clipfwd` in lowercase next to it as a second version. The
+project is open source, so the logo must be freely usable, and the fonts should carry an open licence.
