@@ -1,0 +1,14 @@
+# GSD planning docs stay local
+.planning/
+
+# Build output
+/clipfwd
+/dist/
+*.test
+*.out
+
+# Editor and OS cruft
+.DS_Store
+
+# Local design sketch, superseded by .planning/ (publish a cleaned-up copy as docs/DESIGN.md when ready)
+PLAN.md
