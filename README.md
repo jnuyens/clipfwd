@@ -20,6 +20,8 @@ screenshot of what is going wrong.
 
 ## How it will work
 
+<p align="center"><img src="assets/flow.png" alt="A screenshot travels from your laptop over ssh into tmux on the server, where your agent (Claude Code, Codex or opencode) receives it" width="800"></p>
+
 1. A small server on your laptop serves the current clipboard image over a Unix socket.
 2. SSH forwards that socket to the remote host with `RemoteForward`. No new protocol, no open ports,
    no extra authentication.
